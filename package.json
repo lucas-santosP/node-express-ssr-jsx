@@ -1,11 +1,11 @@
 {
-  "name": "node-mvc",
+  "name": "node-express-ssr-jsx",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/server.js",
     "dev": "nodemon --exec babel-node src/server.js",
+    "start": "node dist/server.js",
     "build": "babel ./src --out-dir ./dist",
     "lint": "eslint"
   },
